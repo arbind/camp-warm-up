@@ -90,3 +90,30 @@ This will open up and run the Tests in your browser:
     webpack --watch
 
 As you do the warm up exercises and implement the WarmUP, refresh the browser to see if the tests are passing.
+
+
+### NOTE About Webpack Version:
+This repo needs to be updated to run w/ latest webpack
+
+Till then, you can install webpack 1 locally:
+
+```
+git clone git@github.com:arbind/camp-warm-up.git
+cd camp-warm-up/
+```
+
+Install deps, ignore warnings, and also install wepack 1 locally
+
+```
+npm install
+npm install webpack@1.15.0
+```
+
+To Run Test
+
+```
+./node_modules/.bin/webpack
+npm test
+```
+
+Fix code then Run Tests Again!
